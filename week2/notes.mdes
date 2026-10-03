@@ -1,0 +1,9 @@
+Q1 - pwd command printed the absolute path to the folder I was currently standing in. 
+Q2 - ls -a showed the hidden entries . and .., which represent the current directory and its parent directory. Plain ls doesn't show these because it hides 
+anything starting with a dot by default.
+Q3 - The first column shows the file type and permissions. The d means it's a directory. The next nine characters show permissions in three groups of 
+three: the owner can read, write, and execute; the group can read and execute; and everyone else can also only read and execute
+Q4 - It worked because coding_cafe/week2 is a relative path, and relative paths are interpreted based on your current location. 
+Q5  mv did two different jobs: the first time it moved README-backup.md into  the week01 folder without changing its name. The second time it 
+renamed the file to old-readme.md without changing its location. Same command, but the result depends on whether the destination path is a 
+different folder or just a new filename in the same folder. 
