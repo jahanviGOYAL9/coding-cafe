@@ -15,3 +15,16 @@ Q4 - .DS_Store disappeared and .gitignore appeared.
 
 Q5 - It should be committed, so anyone who clones the repo gets the same 
 ignore rules.
+
+Q6 - README.md moved from "Untracked files" to "Changes to be committed". 
+git add moved it from the working directory into the staging area, but it 
+isn't in the repository until I commit.
+
+Q7 - After the commit, Git printed [main (root-commit) 027ce20] Lab work 
+so far.8 files were changed. 
+
+Q8 - The first seven characters of a commit (027ce20 for yours) are the 
+short commit hash, the start of the commit's long unique ID. They're used 
+to refer to that exact commit, for example to look at it later or go back 
+to it, and seven characters is usually enough to tell it apart from every 
+other commit.
